@@ -1,0 +1,26 @@
+{
+  "name": "browserslist-config-openmrs",
+  "version": "1.0.0",
+  "description": "The browserslist for openmrs code",
+  "main": "src/browserslist-config-openmrs.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openmrs/browserslist-config-openmrs.git"
+  },
+  "keywords": [
+    "browserslist",
+    "openmrs"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/openmrs/browserslist-config-openmrs/issues"
+  },
+  "homepage": "https://github.com/openmrs/browserslist-config-openmrs#readme",
+  "devDependencies": {
+    "browserslist": "^4.6.4",
+    "jest": "^24.8.0"
+  }
+}
