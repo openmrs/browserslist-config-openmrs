@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "The browserslist for openmrs code",
   "main": "src/browserslist-config-openmrs.js",
+  "files": [
+    "src/browserslist-config-openmrs.js"
+  ],
   "scripts": {
     "test": "jest",
     "prepare": "husky"
