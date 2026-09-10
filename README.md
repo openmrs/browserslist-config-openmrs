@@ -9,10 +9,8 @@ that our frontend code at OpenMRS is compiled to work in the browsers we support
 - This list of browsers was determined as part of OpenMRS' RFC process. [More info](https://github.com/openmrs/openmrs-rfc-frontend/blob/master/text/0003-browser-support.md).
 - You must use `@babel/preset-env` and/or `autoprefixer` in order for your code's compilation to target the correct browsers.
 - See [this file](src/browserslist-config-openmrs.js) to see which browsers are supported.
-- The [test snapshot](src/__snapshots__/browserslist-config-openmrs.test.js.snap) shows exactly which browsers were captured by the config
-  the last time we updated the browserslist-config-openmrs library. However, that list does not necessarily represent the browsers that code will
-  be compiled to. What determines which browsers code is compiled to is the version of `browserslist` that is found inside of any project's
-  package-lock.json. The version there is usually determined by the version of `@babel/preset-env` or `autoprefixer` that you have installed.
+- The tests check the RFC policy and loading the package through a consumer's Browserslist configuration.
+  The concrete browser versions depend on the resolver and browser data used by each build tool.
 - If you're using [css-loader](git@github.com:webpack-contrib/css-loader.git), be sure to use at least version 1.0.0, which has support for shareable browserslist config files.
 
 ## Installation
